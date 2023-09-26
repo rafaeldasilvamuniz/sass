@@ -1,0 +1,23 @@
+@use 'conf/cores.scss';
+
+.product-button {
+    display: block;
+    background-color: cores.$corBlack;
+    color: cores.$corAzul;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 8px;
+    margin-top: 8px;
+    text-decoration: none;
+}
+
+.product-button:hover {
+    background-color: cores.$corCinza;
+}
+
+.menu {
+    padding: 20px 0;
+    border-radius: 8px;
+    margin-top: auto;
+    text-decoration: none;
+}
